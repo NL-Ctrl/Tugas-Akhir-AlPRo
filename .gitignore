@@ -1,0 +1,10 @@
+# Abaikan file hasil compile C++
+*.exe
+*.o
+*.out
+
+# Abaikan file data testing lokal (opsional)
+data_tugas.txt
+
+# Abaikan pengaturan lokal VS Code
+.vscode/
