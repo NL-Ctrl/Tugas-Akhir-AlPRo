@@ -54,7 +54,6 @@ void tambahTugas(Tugas* daftar, int* jumlah) {
     cout << ">> Tugas berhasil ditambahkan!\n";
 }
 
-// Fungsi Output daftar tugas
 void tampilkanTugas(Tugas* daftar, int jumlah) {
     if (jumlah == 0) {
         cout << "\nBelum ada tugas yang tersimpan.\n";

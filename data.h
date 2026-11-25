@@ -4,7 +4,6 @@
 #include <string>
 using namespace std;
 
-// 1. ENUM: Kategori Kuadran & Status
 enum Kuadran {
     Q1_KERJAKAN = 1,
     Q2_JADWALKAN = 2,
@@ -17,13 +16,11 @@ enum Status {
     SELESAI = 1
 };
 
-// 2. UNION: Hemat memori (hanya 1 data aktif dalam satu waktu)
 union InfoTambahan {
     int estimasiJam;   // Dipakai saat tugas BELUM_SELESAI
     float nilaiAkhir;  // Dipakai saat tugas SELESAI
 };
 
-// 3. STRUCT: Wadah utama satu tugas
 struct Tugas {
     string namaTugas;
     string mataKuliah;
